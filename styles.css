@@ -2,6 +2,7 @@
 body{
     background-color: black;
     font-family: 'Akshar';
+    min-height: 100vh;
 }
 .home-body {
     height: 100vh;
@@ -10,6 +11,7 @@ body{
     margin: 0rem;
     overflow: hidden;
     font-family: 'Akshar';
+    flex: 1;
 }
   
 #image-list {
@@ -40,12 +42,13 @@ user-select: none;
 }
 
 #image-list > .image {
-width: 56vmin;
+width: 50vmin;
 height: 56vmin;
 object-fit: cover;
 object-position: 100% center;
 animation: slideIn 1s ease-out;
 cursor: pointer;
+border-radius: 5px;
 }
 
 nav {
@@ -195,5 +198,9 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2{
+    color:#fff
 }
 
